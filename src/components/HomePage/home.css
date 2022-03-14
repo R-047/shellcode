@@ -21,7 +21,7 @@
 }
 
 .background_blob {
-  background-image: url("ssshape.svg");
+  background-image: url("./res/ssshape.svg");
   height: 100vh;
   background-position: 0% 40%;
   background-repeat: no-repeat;

@@ -2,21 +2,21 @@ import React from 'react'
 import './home.css'
 
 
-import prod_img from './productimg.png';
-import itm_ic from './bionic-contact-lens-svgrepo-com.svg'
-import firstimg from './firstitem.png'
-import secimg from './seconditem.png'
-import thirdimg from './thirditem.png'
-import cardimg from './cardimg.png'
-import quote from './quotes.svg'
-import earth from './earth.png'
-import blob from './blob.svg'
-import logo_ic from './logoipsum.svg'
-import ssshape from './ssshape.svg'
+import prod_img from './res/productimg.png';
+import itm_ic from './res/bionic-contact-lens-svgrepo-com.svg'
+import firstimg from './res/firstitem.png'
+import secimg from './res/seconditem.png'
+import thirdimg from './res/thirditem.png'
+import cardimg from './res/cardimg.png'
+import quote from './res/quotes.svg'
+import earth from './res/earth.png'
+import blob from './res/blob.svg'
+import logo_ic from './res/logoipsum.svg'
+import ssshape from './res/ssshape.svg'
 
 
 import styled from 'styled-components'
-import user1 from './userdp1.png'
+import user1 from './res/userdp1.png'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
