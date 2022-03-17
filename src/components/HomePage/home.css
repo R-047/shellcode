@@ -4,21 +4,6 @@
   overflow-x: hidden;
 }
 
-.header {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: fit-content;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  padding: 20px 200px 20px 200px;
-  /* background-color: aqua; */
-  position: fixed;
-  top: 0px;
-  background-color: red;
-  z-index: 10;
-}
 
 .background_blob {
   background-image: url("./res/ssshape.svg");
@@ -62,7 +47,6 @@
   align-items: center;
   flex-direction: row;
   gap: 30px;
-  color: white;
 }
 
 .cart_link {
@@ -71,7 +55,6 @@
 
 .cart_link > div {
   background-color: red;
-  color: white;
   position: relative;
   font-size: 11px;
   top: 8px;
@@ -130,6 +113,7 @@
 }
 
 .prod_image {
+  margin-left: 100px;
 }
 
 /* .............................................. */
@@ -204,11 +188,18 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  gap: 100px;
 }
+
+
+/* .img_content_wrapper > img{
+  margin-right: 100px;
+  margin-left: 100px;
+} */
 
 .text_wrapper_2 > h1 {
   font-size: 40px;
-  color: #23a7e5;
+  color: #6C63FF;
   line-height: 40px;
   text-align: left;
   position: relative;
@@ -216,10 +207,10 @@
 
 .text_wrapper_2 > h1::after {
   content: "";
-  position: relative;
+  position: absolute;
   top: 14px;
   left: -30px;
-  background: #40b6ed;
+  background: #6C63FF;
   width: 10px;
   height: 10px;
   border-radius: 100%;
@@ -227,10 +218,10 @@
 
 .text_wrapper_2 > h1::before {
   content: "";
-  position: relative;
+  position: absolute;
   top: 9px;
   left: -35px;
-  background: #e5f7fb;
+  background: #d1cff8;
   width: 20px;
   height: 20px;
   border-radius: 100%;
@@ -267,11 +258,12 @@
 
 .productcards_container {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	/* padding: 0px 20px 0px 20px; */
-	width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 20px 0px 20px;
+    width: 100%;
+    align-content: flex-start;
 }
 
 .product_card {
@@ -279,11 +271,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  height: 100%;
+}
+
+
+.product_card > h1{
+  margin-top: 30px;
 }
 
 .product_card > ul{
 	list-style-type: none;
-
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: fit-content;
+    margin: 0;
 }
 
 
